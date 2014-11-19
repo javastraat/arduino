@@ -15,7 +15,7 @@ float photocell=0;
 byte mac[] = { 
   0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 byte ip[] = {
-  192,168,2,177 }; // don't forget to change this IP address for your own situation
+  10,0,0,1 }; // don't forget to change this IP address for your own situation
 Server server(80);
 
 void setup()

@@ -10,8 +10,8 @@ http://www.rovingnetworks.com/Current_Firmware
 
 #include <WiFly.h>
 
-#define SSID "Jose Olcina"
-#define KEY "itoldyoualready"
+#define SSID "SSID"
+#define KEY "password"
 
 // WIFLY_AUTH_OPEN / WIFLY_AUTH_WPA1 / WIFLY_AUTH_WPA1_2 / WIFLY_AUTH_WPA2_PSK
 //#define AUTH WIFLY_AUTH_WPA2_PSK
