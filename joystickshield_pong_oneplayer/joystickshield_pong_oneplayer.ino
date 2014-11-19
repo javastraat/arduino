@@ -21,7 +21,7 @@
 #include "Timer.h"
 
 
-#define POTPIN A5 // Potentiometer
+#define POTPIN A0 // Potentiometer
 #define PADSIZE 2
 #define BALL_DELAY 200
 #define GAME_DELAY 10
