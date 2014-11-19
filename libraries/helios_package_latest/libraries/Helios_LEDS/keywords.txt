@@ -1,0 +1,24 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Init	KEYWORD2
+LedMatrixScrollSpeed	KEYWORD2
+LedMatrixWrite	KEYWORD2
+LedMatrixLoop	KEYWORD2
+LedMatrixBusy	KEYWORD2
+LedMatrixReady	KEYWORD2
+LedMatrixClear	KEYWORD2
+LedMatrixWaitTillReady	KEYWORD2
+SetRGB	KEYWORD2
+SetLEDS	KEYWORD2
+ClearAll	KEYWORD2
+
+		
+#######################################
+# Constants (LITERAL1)
+#######################################

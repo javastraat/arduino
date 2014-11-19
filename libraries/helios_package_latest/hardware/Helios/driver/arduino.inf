@@ -1,0 +1,66 @@
+; Copyright 2012 Blacklabel Development, Inc.
+
+[Strings]
+DriverPackageDisplayName="Arduino Boards"
+ManufacturerName="KITT Engineering"
+ServiceName="USB RS-232 Emulation Driver"
+helios.bootloader.name="Helios Gadget bootloader"
+helios.sketch.name="Helios Gadget"
+usbserial.name="Arduino USB Serial Light Adapter"
+
+[DefaultInstall]
+CopyINF=arduino.inf
+
+[Version]
+Class=Ports
+ClassGuid={4D36E978-E325-11CE-BFC1-08002BE10318}
+Signature="$Windows NT$"
+Provider=%ManufacturerName%
+DriverPackageDisplayName=%DriverPackageDisplayName%
+CatalogFile=arduino.cat
+DriverVer=01/01/2013,1.0.0.0
+
+[Manufacturer]
+%ManufacturerName%=DeviceList, NTamd64, NTia64
+
+[DestinationDirs]
+FakeModemCopyFileSection=12
+DefaultDestDir=12
+
+[DeviceList]
+%helios.bootloader.name%=DriverInstall, USB\VID_2341&PID_0036
+%helios.sketch.name%=DriverInstall, USB\VID_2341&PID_8036&MI_00
+%usbserial.name%=DriverInstall, USB\VID_2341&PID_003B
+
+[DeviceList.NTamd64]
+%helios.bootloader.name%=DriverInstall, USB\VID_2341&PID_0036
+%helios.sketch.name%=DriverInstall, USB\VID_2341&PID_8036&MI_00
+%usbserial.name%=DriverInstall, USB\VID_2341&PID_003B
+
+[DeviceList.NTia64]
+%helios.bootloader.name%=DriverInstall, USB\VID_2341&PID_0036
+%helios.sketch.name%=DriverInstall, USB\VID_2341&PID_8036&MI_00
+%usbserial.name%=DriverInstall, USB\VID_2341&PID_003B
+
+[DriverInstall]
+include=mdmcpq.inf,usb.inf
+CopyFiles = FakeModemCopyFileSection
+AddReg=DriverAddReg
+
+[DriverAddReg]
+HKR,,DevLoader,,*ntkern 
+HKR,,NTMPDriver,,usbser.sys 
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+[DriverInstall.Services]
+include=mdmcpq.inf
+AddService=usbser, 0x00000002, DriverService
+
+[DriverService]
+DisplayName=%ServiceName%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\usbser.sys
+LoadOrderGroup=Base
+

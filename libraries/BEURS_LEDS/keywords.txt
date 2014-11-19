@@ -1,0 +1,31 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LED	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Init	KEYWORD2
+LedkrantScrollTime	KEYWORD2
+LedkrantWrite	KEYWORD2
+LedkrantWrite	KEYWORD2
+LedkrantLoop	KEYWORD2
+LedkrantLoop	KEYWORD2
+LedkrantBusy	KEYWORD2
+LedkrantReady	KEYWORD2
+LedkrantClear	KEYWORD2
+LedkrantWaarde	KEYWORD2
+LedkrantCheckLed	KEYWORD2
+SetRGB	KEYWORD2
+SetLED1	KEYWORD2
+SetLED2	KEYWORD2
+SetLED3	KEYWORD2
+SetLEDS	KEYWORD2
+ClearAll	KEYWORD2
+		
+#######################################
+# Constants (LITERAL1)
+#######################################

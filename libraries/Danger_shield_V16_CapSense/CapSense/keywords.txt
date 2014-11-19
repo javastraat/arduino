@@ -1,0 +1,6 @@
+CapSense	KEYWORD1
+capSenseRaw	KEYWORD2
+capSense	KEYWORD2
+set_CS_Timeout_Millis	KEYWORD2
+reset_CS_AutoCal	KEYWORD2
+set_CS_AutocaL_Millis	KEYWORD2

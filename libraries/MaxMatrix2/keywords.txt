@@ -1,0 +1,10 @@
+MaxMatrix		KEYWORD1
+init			KEYWORD2
+clear			KEYWORD2
+clearAll		KEYWORD2
+setIntensity	KEYWORD2
+setDecodeMode	KEYWORD2
+setShutdown		KEYWORD2
+setTestMode		KEYWORD2
+sendCommand		KEYWORD2	
+sendArray		KEYWORD2

@@ -1,0 +1,35 @@
+##############################################################
+
+HITBadgeu.name=HITBadge upload sketch (328 & 328P) + bootloader (328P)
+HITBadgeu.upload.protocol=arduino
+HITBadgeu.upload.maximum_size=32256
+HITBadgeu.upload.speed=115200
+HITBadgeu.bootloader.low_fuses=0xff
+HITBadgeu.bootloader.high_fuses=0xde
+HITBadgeu.bootloader.extended_fuses=0x05
+HITBadgeu.bootloader.path=optiboot
+HITBadgeu.bootloader.file=optiboot_atmega328.hex
+HITBadgeu.bootloader.unlock_bits=0x3F
+HITBadgeu.bootloader.lock_bits=0x0F
+HITBadgeu.build.mcu=atmega328p
+HITBadgeu.build.f_cpu=16000000L
+HITBadgeu.build.core=arduino
+HITBadgeu.build.variant=standard
+
+##############################################################
+
+HITBadge.name=HITBadge bootloader (328 no P)
+HITBadge.upload.protocol=arduino
+HITBadge.upload.maximum_size=32256
+HITBadge.upload.speed=115200
+HITBadge.bootloader.low_fuses=0xff
+HITBadge.bootloader.high_fuses=0xde
+HITBadge.bootloader.extended_fuses=0x05
+HITBadge.bootloader.path=optiboot
+HITBadge.bootloader.file=optiboot_atmega328.hex
+HITBadge.bootloader.unlock_bits=0x3F
+HITBadge.bootloader.lock_bits=0x0F
+HITBadge.build.mcu=atmega328
+HITBadge.build.f_cpu=16000000L
+HITBadge.build.core=arduino
+HITBadge.build.variant=standard

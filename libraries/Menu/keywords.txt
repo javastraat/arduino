@@ -1,0 +1,37 @@
+#######################################
+# Syntax Coloring Map For Menus
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Menu	KEYWORD1
+MenuItem	KEYWORD1
+SubMenu	KEYWORD1
+SubMenuItem	KEYWORD1
+ItemEvent	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+previous	KEYWORD2
+up	KEYWORD2
+down	KEYWORD2
+select	KEYWORD2
+use	KEYWORD2
+addMenuItem	KEYWORD2
+addSubMenuItem	KEYWORD2
+addSubMenu	KEYWORD2
+isSubMenu	KEYWORD2
+isCurrentSubMenu	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+menuUsed	LITERAL1
+menuChanged	LITERAL1
+
+

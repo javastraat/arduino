@@ -1,0 +1,35 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+SetAll	KEYWORD2
+SetTime	KEYWORD2
+SetDate	KEYWORD2
+SetWeekday	KEYWORD2
+ReadAll	KEYWORD2
+GetSeconds	KEYWORD2
+GetMinutes	KEYWORD2
+GetHours	KEYWORD2
+ReadTime	KEYWORD2
+ReadDate	KEYWORD2
+SetAlarmDaily	KEYWORD2
+SetAlarmWeekly	KEYWORD2
+SetAlarmMonthly	KEYWORD2
+ResetAlarm	KEYWORD2
+DisableAlarm	KEYWORD2
+EnableAlarm	KEYWORD2
+SetTimer	KEYWORD2
+EnableTimer	KEYWORD2
+ResetTimer	KEYWORD2
+DisableTimer	KEYWORD2
+ReadAlarmFlag	KEYWORD2
+ReadTimerFlag	KEYWORD2
+		
+#######################################
+# Constants (LITERAL1)
+#######################################

@@ -1,0 +1,15 @@
+<html>
+<body>
+<pre>
+<h1>礦ision2 Build Log</h1>
+<h2>Project:</h2>
+D:\开发板及模块测试程序\MAX7219点阵驱动程序\Max7219.uv2
+项目文件日期:  08/28/2012
+
+<h2>Output:</h2>
+创建目标 'Target 1'
+汇编 STARTUP.A51...
+编译 main.c...
+连接...
+产生 hex 文件从 "Max7219"...
+"Max7219" - 0 个错误, 0 个警告。

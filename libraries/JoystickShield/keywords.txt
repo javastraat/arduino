@@ -1,0 +1,99 @@
+#################################################
+# Syntax Coloring Map For Joystick Shield Library
+# http://hardwarefun.com/projects/joystick-shield
+#################################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+JoystickShield	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setJoystickPins	KEYWORD2
+setButtonPins	KEYWORD2
+setThreshold	KEYWORD2
+
+processEvents	KEYWORD2
+processCallbacks	KEYWORD2
+
+
+# Joystick Functions
+
+isCenter	KEYWORD2
+isUp	KEYWORD2
+isRightUp	KEYWORD2
+isRight	KEYWORD2
+isRightDown	KEYWORD2
+isDown	KEYWORD2
+isLeftDown	KEYWORD2
+isLeft	KEYWORD2
+isLeftUp	KEYWORD2
+isnotCenter	KEYWORD2
+
+# Button Functions
+
+isJoystickButton	KEYWORD2
+isUpButton	KEYWORD2
+isRightButton	KEYWORD2
+isDownButton	KEYWORD2
+isLeftButton	KEYWORD2
+isFButton	KEYWORD2
+isEButton	KEYWORD2
+
+# Joystick coordinates
+xAmplitude	KEYWORD2
+yAmplitude	KEYWORD2
+
+# Joystick callbacks Functions
+
+onJSCenter	KEYWORD2
+onJSUp	KEYWORD2
+onJSRightUp	KEYWORD2
+onJSRight	KEYWORD2
+onJSRightDown	KEYWORD2
+onJSDown	KEYWORD2
+onJSLeftDown	KEYWORD2
+onJSLeft	KEYWORD2
+onJSLeftUp	KEYWORD2
+onJSnotCenter	KEYWORD2
+
+# Button callbacks
+
+onJoystickButton	KEYWORD2
+onUpButton	KEYWORD2
+onRightButton	KEYWORD2
+onDownButton	KEYWORD2
+onLeftButton	KEYWORD2
+onFButton		KEYWORD2
+onEButton		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+#Joystick states
+
+CENTER	LITERAL1
+UP	LITERAL1
+RIGHT_UP	LITERAL1
+RIGHT	LITERAL1
+RIGHT_DOWN	LITERAL1
+DOWN	LITERAL1
+LEFT_DOWN	LITERAL1
+LEFT	LITERAL1
+LEFT_UP	LITERAL1
+
+#Button states
+
+NO_BUTTON	LITERAL1
+JOYSTICK_BUTTON	LITERAL1
+UP_BUTTON	LITERAL1
+RIGHT_BUTTON	LITERAL1
+DOWN_BUTTON	LITERAL1
+LEFT_BUTTON	LITERAL1
+F_BUTTON	LITERAL1
+E_BUTTON	LITERAL1

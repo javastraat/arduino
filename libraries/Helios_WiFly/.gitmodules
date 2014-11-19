@@ -1,0 +1,6 @@
+[submodule "CocoaAsyncSocket"]
+	path = CocoaAsyncSocket
+	url = https://github.com/dirkx/CocoaAsyncSocket
+[submodule "WiFly_communicator"]
+	path = WiFly_communicator
+	url = git://github.com/kasperkamperman/WiFly_communicator.git
